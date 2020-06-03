@@ -37,10 +37,10 @@ SECCIÓN PERFIL
 			</li>
 
 
-		  
+		  <!-- 
 			<li class="nav-item">
 				<a class="nav-link" data-toggle="tab" href="#deseos"><i class="fa fa-user"></i> EDITAR PERFIL</a></a>
-			</li>
+			</li> -->
 
 	  		
 		

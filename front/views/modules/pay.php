@@ -4,12 +4,10 @@
     $id = $_GET["id"];
 
     //
-    echo "<h1>Coloca un loader.</h1>";
+    include 'views/modules/loader1.php';
+
 
     $info = GestorProductosController::ver_detalle_producto($id);
 
     Pay_::payment($info["producto"]);
-
-    
-
 ?>

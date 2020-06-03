@@ -1,5 +1,8 @@
+    
+<div><h2 style="text-align: center;">Estamos procesando su pago<br>
+por favor espere un momento</h2></div>
 
-<h1>Coloca un loader.</h1>
+
 <script>
 
     var url = window.location
@@ -12,7 +15,7 @@
     console.log(paymentId);
     console.log(PayerID);
 
-    //TODO: Coloca un loader
+    //TODO: Coloca un load
 
     $.ajax({
         url: "views/ajax/payAjax.php",

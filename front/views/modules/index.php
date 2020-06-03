@@ -49,7 +49,7 @@
 
 			<div class="latest-feed__items">
 				<div class="feed-item">
-					<a class="feed-item__image-container" href="/feed/realsethfowler">
+					<a class="feed-item__image-container" href="#">
 						<div class="feed-item__image" style="background-image: url('views/img/zapatos/0aeeefbc279b63cb8834b2b5e4650c0a229eaa8e_screen-shot-2019-06-26-at-6.03.28-pm.png');">
 							<div class="feed-item__block-shader"></div>
 							<div class="feed-item__instagram">
@@ -61,10 +61,10 @@
 					<div class="feed-item__content feed-item__content--has-video">
 						<h1>@universal<br/>venezuela</h1>
 					</div>
-					<a class="feed-item__cta" href="/feed/realsethfowler">Ve a nuestro Instagram</a>
+					<a class="feed-item__cta" href="#">Ve a nuestro Instagram</a>
 				</div>
 				<div class="feed-item">
-					<a class="feed-item__image-container" href="/feed/the-yeezy-boost-700-has-been-on-a-roll-with-several">
+					<a class="feed-item__image-container" href="#">
 						<div class="feed-item__image" style="background-image: url('views/img/zapatos/0aeeefbc279b63cb8834b2b5e4650c0a229eaa8e_screen-shot-2019-06-26-at-6.03.28-pm.png');">
 							<div class="feed-item__block-shader"></div>
 							<div class="feed-item__facebook">
@@ -75,10 +75,10 @@
 					<div class="feed-item__content">
 						<h1>Yeezy Boost 700 Utility Black Release Info</h1>
 					</div>
-					<a class="feed-item__cta" href="/feed/the-yeezy-boost-700-has-been-on-a-roll-with-several">Ver más</a>
+					<a class="feed-item__cta" href="#">Ver más</a>
 				</div>
 				<div class="feed-item">
-					<a class="feed-item__image-container" href="/feed/a-new-color-way-of-the-air-jordan-1-retro-high-og-is">
+					<a class="feed-item__image-container" href="#">
 						<div class="feed-item__image" style="background-image: url('views/img/zapatos/0aeeefbc279b63cb8834b2b5e4650c0a229eaa8e_screen-shot-2019-06-26-at-6.03.28-pm.png');">
 							<div class="feed-item__block-shader"></div>
 							<div class="feed-item__category">
@@ -89,9 +89,9 @@
 					<div class="feed-item__content">
 						<h1>Air Jordan 1 "Black Gym Red" Release Info </h1>
 					</div>
-					<a class="feed-item__cta" href="/feed/a-new-color-way-of-the-air-jordan-1-retro-high-og-is">Ver más</a>
+					<a class="feed-item__cta" href="#">Ver más</a>
 				</div>
 			</div>
-			<a class="latest-feed__more-posts" href="/feed" style="text-decoration: none;">Nuestras ultimas publicaciones</a>
+			<a class="latest-feed__more-posts" href="http://localhost/uv-jesus/front/shop" style="text-decoration: none;">Nuestras ultimas publicaciones</a>
 		</div>
 	</div>

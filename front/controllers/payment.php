@@ -63,7 +63,7 @@ class Pay_{
             ->setInvoiceNumber(uniqid());
 
 
-        $baseUrl = "http://localhost/universalvenezuela/front";
+        $baseUrl = "http://localhost/uv-jesus/front";
         $redirectUrls = new RedirectUrls();
         $redirectUrls->setReturnUrl("$baseUrl/ExecutePayment?success=true")
             ->setCancelUrl("$baseUrl/ExecutePayment?success=false");

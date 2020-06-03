@@ -8,7 +8,7 @@ class Ruta{
 
 	public function ctrRuta(){
 
-		return "http://localhost/universalvenezuela/front/";
+		return "http://localhost/uv-jesus/front/";
 	
 	}
 
@@ -18,7 +18,7 @@ class Ruta{
 
 	public function ctrRutaServidor(){
 
-		return "http://localhost/universalvenezuela/backend/";
+		return "http://localhost/uv-jesus/backend/";
 	
 	}
 

@@ -1,0 +1,1 @@
+<?php $ruta = Ruta::ctrRutaServidor();?>
