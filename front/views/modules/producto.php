@@ -153,7 +153,7 @@
 
                 echo '
 
-                <a class="pdp-offer-actions__action pdp-offer-actions__action--buy" idUsuario="'.$_SESSION["id"].'"><h3>Pagar Paypal</h3></a>
+                <a class="pdp-offer-actions__action pdp-offer-actions__action--buy" idUsuario="'.$_SESSION["id"].'" href="pay_'.$id.'"><h3>Pagar Paypal</h3></a>
                 <a class="pdp-offer-actions__action" id="zelle" data-target="zelle" idUsuario="'.$_SESSION["id"].'" style="background: beige;"><h3>Pagar Zelle</h3></a>
 
 ';

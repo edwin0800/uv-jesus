@@ -17,6 +17,8 @@ class EnlacesModels{
 			$enlaces == "shop" ||
 			$enlaces == "perfil" ||
 			$enlaces == "salir" ||
+			$enlaces == "pay" ||
+			$enlaces == "ExecutePayment" ||			
 			$enlaces == "home"){
 
 			$module = "views/modules/".$enlaces.".php";

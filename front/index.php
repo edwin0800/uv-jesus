@@ -27,6 +27,7 @@ require_once 'controllers/gestorCategorias.php';
 require_once 'controllers/gestorSubCategorias.php';
 require_once "controllers/usuarios.controlador.php";
 require_once "controllers/notificaciones.controlador.php";
+require_once "controllers/payment.php";
 
 require_once "views/PHPMailer/PHPMailerAutoload.php";
 
