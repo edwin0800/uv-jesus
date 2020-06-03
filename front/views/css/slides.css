@@ -1,0 +1,505 @@
+/*=============================================
+SLIDE            
+=============================================*/
+
+#status{
+	position:relative;
+	display:block;
+	margin:auto;
+}
+
+#slide{
+	position: relative;	
+    margin: auto;
+    /*padding:20px;*/
+	margin-bottom:-50px;
+	overflow:hidden;
+	background:white;
+}
+
+/*Photo Slide*/
+
+#slide ul li{
+	float: left;
+	width: 25%;
+	display:none;
+}
+
+#slide ul li:first-child{
+	display:block;
+}
+
+#slide ul li img{
+	width: 100%;
+}
+
+#slide ul li .slideCaption{
+	position:relative;
+	width:100%;
+	top:-95px;
+	text-align:center;
+	z-index:1;
+	color:white;
+	background: rgba(0,0,0,.5);
+}
+
+.slideCaption h3{
+	padding-top:10px;
+}
+
+.slideCaption p{
+	padding-bottom:10px;
+}
+
+/*Indicadores Slide*/
+
+#indicadores{
+	position: relative;
+	width: 100%;
+	margin:auto;
+	height: 0px;
+	top: -70px;
+	text-align: center;
+}
+
+#indicadores li{
+	display:inline-block;
+	margin:0px 5px;
+	cursor: pointer;
+	opacity: .5;
+	color: white;
+	text-shadow: 0px 0px 5px #333;
+}
+
+#indicadores li:first-child{
+	opacity: 1;
+}
+
+/*Upload Img Slide*/
+
+#imgSlide{
+	position:relative;
+}
+
+#imgSlide p{
+	position:relative;
+	text-align:center;
+	width:100%;
+	margin-top:10px;
+}
+
+#imgSlide ul{
+	position: relative;
+	/*margin:20px;*/
+	padding: 0px;
+	height:auto;
+	/*border:2px dashed #999;*/
+}
+
+#imgSlide ul li span{
+	position:absolute;
+	top:0;
+	right:0;
+	cursor:pointer;
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background:white;
+	z-index:1;
+	color:white;
+	background: #000;
+    opacity: 0.4;
+}
+#imgSlide ul li .span-left{
+	position:absolute;
+	top: 31px;
+	right:0;
+	cursor:pointer;
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background:white;
+	z-index:1;
+	color:white;
+	background: #000;
+    opacity: 0.4;
+}
+#imgSlide ul li .span_3{
+	top: 69px !important;
+}
+
+/*Upload Text Slide*/
+
+#textoSlide{
+	position:relative;
+	background:white;
+}
+
+#textoSlide ul{
+	position:relative;
+	padding:10px;
+}
+
+#textoSlide ul li span{
+	float:right;
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height: 30px;
+	cursor: pointer;
+	color:white;
+	margin:2px;
+	border-radius:5px;
+}
+
+#textoSlide ul li input{
+	margin: 20px 10px;
+	width:94%;
+	padding:10px;
+}
+
+#textoSlide ul li textarea{
+	margin: 0px 10px;
+	width:94%;
+	padding:10px;
+}
+
+/*=====  Fin de SLIDE  ======*/
+@media (min-width:1200px){
+	/*Slide*/
+
+	#slide ul{
+		position: relative;
+		margin: auto;
+		height: auto;
+		width:400%;
+	}
+
+	#imgSlide ul li{
+		position: relative;
+		width:31%;
+		overflow:hidden;
+		display:inline-block;
+		margin: 5px 5px;
+	}
+
+	#imgSlide ul li img{
+		width:100%;
+	}
+
+	#slide div#slideIzq span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 45%;
+		left:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#slide div#slideDer span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 45%;
+		right:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#textoSlide ul li{
+		float:left;
+		list-style:none;
+		width:31.5%;
+		padding: 10px 20px;
+		height:auto;
+		margin:10px;
+		border:2px dashed #999;
+	}
+
+	#galeria ul li{
+		position: relative;
+		width:150px;
+		height:150px;
+		overflow:hidden;
+		display:inline-block;
+		margin:10px 18.3px;
+	}
+
+	/*Videos*/
+
+	#galeriaVideo li{
+		position:relative;
+		display:inline-block;
+		margin:20px 20px;
+		background:white;
+		width:46%;
+		height:auto;
+	}
+}
+@media (max-width:991px) and (min-width:768px){
+	/* Slide */
+
+	#slide ul{
+		position: relative;
+		margin: auto;
+		height: auto;
+		width:400%;
+	}
+
+	#imgSlide ul li{
+		position: relative;
+		width:100%;
+		overflow:hidden;
+		display:inline-block;
+		margin:20px auto;
+	}
+
+	#imgSlide ul li img{
+		width:100%;
+	}
+
+	#slide div#slideIzq span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 40%;
+		left:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#slide div#slideDer span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 40%;
+		right:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#textoSlide ul li{
+		float:left;
+		list-style:none;
+		padding: 10px 20px;
+		height:auto;
+		margin:10px;
+		border:2px dashed #999;
+	}
+
+}
+@media (max-width:1199px) and (min-width:992px){
+	/*Slide*/
+
+	#slide ul{
+		position: relative;
+		margin: auto;
+		height: auto;
+		width:400%;
+	}
+
+	#imgSlide ul li{
+		position: relative;
+		width:44.5%;
+		overflow:hidden;
+		display:inline-block;
+		margin:5px 10px;
+	}
+
+	#imgSlide ul li img{
+		width:100%;
+	}
+
+	#slide div#slideIzq span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 40%;
+		left:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#slide div#slideDer span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 40%;
+		right:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#textoSlide ul li{
+		float:left;
+		list-style:none;
+		width:30.3%;
+		padding: 10px 20px;
+		height:auto;
+		margin:10px;
+		border:2px dashed #999;
+	}
+
+}
+
+@media (max-width:991px) and (min-width:768px){
+	#slide ul{
+		position: relative;
+		margin: auto;
+		height: auto;
+		width:400%;
+	}
+
+	#imgSlide ul li{
+		position: relative;
+		width:100%;
+		overflow:hidden;
+		display:inline-block;
+		margin:20px auto;
+	}
+
+	#imgSlide ul li img{
+		width:100%;
+	}
+
+	#slide div#slideIzq span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 40%;
+		left:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#slide div#slideDer span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 40%;
+		right:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#textoSlide ul li{
+		float:left;
+		list-style:none;
+		padding: 10px 20px;
+		height:auto;
+		margin:10px;
+		border:2px dashed #999;
+	}
+
+}
+/*********************************************
+Phones
+**********************************************/
+	
+@media (max-width:767px){
+	/*Slide*/
+
+	#slide ul{
+		position: relative;
+		margin: auto;
+		height: 140px;
+		width:400%;
+	}
+
+	#imgSlide ul li{
+		position: relative;
+		width:100%;
+		overflow:hidden;
+		display:inline-block;
+		margin:20px auto;
+	}
+
+	#imgSlide ul li img{
+		width:100%;		
+	}
+
+	#slide div#slideIzq span{
+		position: absolute;
+		font-size: 20px;
+		color: white;
+		top: 50%;
+		left:30px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#slide div#slideDer span{
+		position: absolute;
+		font-size: 20px;
+		color: white;
+		top: 50%;
+		right:30px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#textoSlide ul li{
+		float:left;
+		list-style:none;
+		padding: 10px 20px;
+		height:auto;
+		margin:10px;
+		border:2px dashed #999;
+	}
+
+	.slideCaption{
+		display:none;
+	}
+
+	#indicadores{
+		display:none;
+	}
+
+}
+
+/*=============================================
+GALERÍA        
+=============================================*/
+
+#galeria{
+	position:relative;
+	background:white;
+}
+
+#galeria p{
+	position:relative;
+	text-align:center;
+	width:100%;
+	margin-top:10px;
+}
+
+#galeria ul{
+	margin:20px;
+	padding: 0px 10px;
+	height:100px;
+	border:2px dashed #999;
+}
+
+#galeria ul li span{
+	position:absolute;
+	top:0;
+	right:0;
+	cursor:pointer;
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background:white;
+	z-index:1;
+	color:white;
+	background: red;
+}
+
+#galeria ul li img{
+	position:relative;
+}
+
+/*=====  Fin de GALERÍA ======*/

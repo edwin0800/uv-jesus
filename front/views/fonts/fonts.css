@@ -1,0 +1,36 @@
+
+@font-face {
+  font-family: 'PNova-Bold';
+  src:
+  url('ProximaNovaSoftW03-Bold.eot?#iefix') format('embedded-opentype'),
+  url('ProximaNovaSoftW03-Bold.woff') format('woff'),
+  url('ProximaNovaSoftW03-Bold.ttf')  format('truetype'),
+  url('ProximaNovaSoftW03-Bold.svg#ProximaNovaSoftW03-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'PNova-Regular';
+  src:
+  url('ProximaNovaSoft-Regular.eot?#iefix') format('embedded-opentype'),
+  url('ProximaNovaSoft-Regular.otf')  format('opentype'),
+  url('ProximaNovaSoft-Regular.woff') format('woff'),
+  url('ProximaNovaSoft-Regular.ttf')  format('truetype'),
+  url('ProximaNovaSoft-Regular.svg#ProximaNovaSoft-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PNova-Semibold';
+  src:
+  url('ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('ProximaNova-Semibold.otf') format('opentype'),
+  url('ProximaNova-Semibold.woff') format('woff'),
+  url('ProximaNova-Semibold.ttf') format('truetype'),
+  url('ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
