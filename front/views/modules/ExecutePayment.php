@@ -31,7 +31,7 @@ por favor espere un momento</h2></div>
         console.log(res);
         res = res["\u0000PayPal\\Common\\PayPalModel\u0000_propMap"]
         if (res.state == "approved") {
-            alert("Compra exitosa")
+            alert("Su compra fue exitosa por favor llene los datos de envio")
             
             window.location.href = "shop"
         }else{
