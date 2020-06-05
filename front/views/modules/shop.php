@@ -381,7 +381,7 @@
                                     </span>
                                 </div>
                                 <span class="product-cell__item-button product-cell__item-button--price">
-                                '.$value["precio"].'
+                                $'.$value["precio"].'
                                 </span>
                             </a>
                         </div>';

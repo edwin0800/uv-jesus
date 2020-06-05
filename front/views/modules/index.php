@@ -49,7 +49,7 @@
 
 			<div class="latest-feed__items">
 				<div class="feed-item">
-					<a class="feed-item__image-container" href="#">
+					<a class="feed-item__image-container" href="https://www.instagram.com/universalvzla/?hl=es-la">
 						<div class="feed-item__image" style="background-image: url('views/img/zapatos/0aeeefbc279b63cb8834b2b5e4650c0a229eaa8e_screen-shot-2019-06-26-at-6.03.28-pm.png');">
 							<div class="feed-item__block-shader"></div>
 							<div class="feed-item__instagram">
@@ -61,10 +61,10 @@
 					<div class="feed-item__content feed-item__content--has-video">
 						<h1>@universal<br/>venezuela</h1>
 					</div>
-					<a class="feed-item__cta" href="#">Ve a nuestro Instagram</a>
+					<a class="feed-item__cta" href="https://www.instagram.com/universalvzla/?hl=es-la">Ve a nuestro Instagram</a>
 				</div>
 				<div class="feed-item">
-					<a class="feed-item__image-container" href="#">
+					<a class="feed-item__image-container" href="https://www.instagram.com/universalvzla/?hl=es-la">
 						<div class="feed-item__image" style="background-image: url('views/img/zapatos/0aeeefbc279b63cb8834b2b5e4650c0a229eaa8e_screen-shot-2019-06-26-at-6.03.28-pm.png');">
 							<div class="feed-item__block-shader"></div>
 							<div class="feed-item__facebook">
@@ -73,12 +73,12 @@
 						</div>
 					</a>
 					<div class="feed-item__content">
-						<h1>Yeezy Boost 700 Utility Black Release Info</h1>
+						<h1>Lo ultimo modelos Aqui!</h1>
 					</div>
-					<a class="feed-item__cta" href="#">Ver más</a>
+					<a class="feed-item__cta" href="https://www.instagram.com/universalvzla/?hl=es-la">Ver más</a>
 				</div>
 				<div class="feed-item">
-					<a class="feed-item__image-container" href="#">
+					<a class="feed-item__image-container" href="https://www.instagram.com/universalvzla/?hl=es-la">
 						<div class="feed-item__image" style="background-image: url('views/img/zapatos/0aeeefbc279b63cb8834b2b5e4650c0a229eaa8e_screen-shot-2019-06-26-at-6.03.28-pm.png');">
 							<div class="feed-item__block-shader"></div>
 							<div class="feed-item__category">
@@ -87,9 +87,9 @@
 						</div>
 					</a>
 					<div class="feed-item__content">
-						<h1>Air Jordan 1 "Black Gym Red" Release Info </h1>
+						<h1>UNIVERSAL VENEZUELA </h1>
 					</div>
-					<a class="feed-item__cta" href="#">Ver más</a>
+					<a class="feed-item__cta" href="https://www.instagram.com/universalvzla/?hl=es-la">Ver más</a>
 				</div>
 			</div>
 			<a class="latest-feed__more-posts" href="http://localhost/uv-jesus/front/shop" style="text-decoration: none;">Nuestras ultimas publicaciones</a>

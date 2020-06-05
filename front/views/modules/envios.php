@@ -1,44 +1,80 @@
 <div class="form_envio">
 
-	<p style="text-align: center;">DATOS DE ENVIO<br>
-	Por favor rellene el formulario<br></p>
-	<p style="text-align: center; color: red;">Recuerde todos nuestros envios son de cobro a destino</p>
-	<div class="envio">
-<div class="form-group">
-                <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
-                </div>
+	
+ </div>
+<div style="height: 30px;"></div>
+ <div class="container">
+ 	<div class="row">
+ 		<div class="col-lg-12">
+ 			<div class="tarjeta card shadow-lg p-3 mb-5 bg-white">
+ 				<h1 class="titulo_envio">Por favor rellene el formulario<br>Recuerde todos nuestros envios son cobro a destino</h1>
+ 			<div class="card-header">DATOS DE ENVIO</div>
+ 			<div class="card-body">
 
-                <div class="form-group">
-                <input type="text" name="apellido" class="form-control" placeholder="Apellido" required>
-                </div>
+ 				<form id="form" action="#" method="post" class="needs-validation" novalidate>
+ 					<div class="form-row">
+ 						<div class="col-md-4 mb-3">
 
-                  <div class="form-group">
-                <input type="text" name="cedula" class="form-control" placeholder="Cedula" required>
-                </div>
+ 						<input type="text" name="nombre" class="form-control" placeholder="Ingrese su Nombre:" required></div>
 
-                <div class="form-group">
-                <input type="text" name="celular" class="form-control" placeholder="Numero de telefono" required>
-                </div>
+ 					</div>
+ 					<div class="form-row">
+ 					<div class="col-md-4 mb-3">
 
-                <div class="form-group">
-                <input type="email" name="email" class="form-control" placeholder="Correo" required>
-                </div>
+ 						<input type="text" name="apellido" class="form-control" placeholder="Ingrese su Apellido:" required></div></div>
 
-                <div class="form-group">
-                <input type="text" name="asunto" class="form-control" placeholder="Asunto" required>
-                </div>
+			<div class="cedula form-row">
+ 						<div class="col-md-1 mb-5">
+ 							<select name="rif" class="custom-select">
+                <option value="v">V</option>
+                <option value="j">J</option>
+                <option value="e">E</option>
+                </select>
+ 						</div>
 
+ 						<div class="col-md-3 mb-3">
 
-                <div class="form-group">
-                <select name="opciones" class="custom-select">
-                <option selected>Seleccione su empresa de envios</option>
+ 						<input type="text" name="ci" class="form-control" placeholder="Ingrese su Cedula o Rif:" required></div>
+ 					</div>
+
+ 						<div class="form-row">
+
+ 						<div class="col-md-4 mb-3">
+
+ 						<input type="text" name="direccion" class="form-control" placeholder="Dirección de envio" required></div>
+ 					</div>
+
+ 					<div class="form-row">
+
+ 						<div class="col-md-4 mb-3">
+ 							<select name="opciones" class="custom-select">
+                <option selected>Seleccione la oficina</option>
                 <option value="tealca">Tealca</option>
                 <option value="zoom">Zoom</option>
-                <option value="domesa">Domesa</option>
-            </select>
-				
-           
+                </select>
+ 						</div>
+ 					</div>
 
-        </div>
-    </div>
-</div>
+<div class="form-row">
+ 						<div class="col-md-4 mb-3">
+
+ 						<input type="text" name="telefono" class="form-control" placeholder="Ingrese su Numero de Telefono" required></div>
+ 					</div>
+ 						<div class="form-row">
+					<div class="col-md-4 mb-3">
+ 						<input type="email" name="email" class="form-control" placeholder="Ingrese su Correo el para envio del tracking" required></div>
+                </div>
+
+						<div class="card-footer">
+							<button type="submit" class="btn btn-primary" >Enviar</button>
+						</div>
+
+
+ 				</div>
+ 					</div>
+ 					
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>

@@ -6,9 +6,21 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
 }
+/*Envios*/
+.titulo_envio{
+  font-size: 20px;
+  text-align: center;
+  color: red;
 
+}
 
+.tarjeta{
+  border-radius: 35px !important;
+}
 
+.cedula{
+  margin-bottom: -25px !important;
+}
 .texto_loader{
   margin-bottom: 150px;
 }
