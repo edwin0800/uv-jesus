@@ -62,8 +62,8 @@
     <div class="footer__nav-container">
         <nav>
             <ul>
-                <li class="footer__social-links">
-                    <a class="textreplace link-instagram" href="#">
+                <li class="footer__social-links" style="margin-bottom: 15px">
+                    <a class="textreplace link-instagram" href="https://www.instagram.com/universalvzla">
                         Instagram
                     </a>
                     <a class="textreplace link-facebook" href="#">
