@@ -33,7 +33,7 @@ por favor espere un momento</h2></div>
         if (res.state == "approved") {
             alert("Su compra fue exitosa por favor llene los datos de envio")
             
-            window.location.href = "perfil"
+            window.location.href = "envios"
         }else{
             //errores
         }

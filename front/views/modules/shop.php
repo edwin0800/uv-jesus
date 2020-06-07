@@ -380,8 +380,13 @@
                                     '.$value["detalles"].'
                                     </span>
                                 </div>
+<<<<<<< HEAD
                                 <span class="product-cell__item-button product-cell__item-button--price">$
                                 '.$value["precio"].'
+=======
+                                <span class="product-cell__item-button product-cell__item-button--price">
+                                $'.$value["precio"].'
+>>>>>>> 8ecbc8e14bdd19aabe35b98410562c49684fde36
                                 </span>
                             </a>
                         </div>';
