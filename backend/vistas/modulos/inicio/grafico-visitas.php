@@ -26,7 +26,7 @@ $totalVisitas = ControladorVisitas::ctrMostrarTotalVisitas();
 
     	<h3 class="box-title">
     	
-    		Gráfico de Visitas
+    		De dónde te compran
     	
     	</h3>
   
@@ -53,7 +53,7 @@ $totalVisitas = ControladorVisitas::ctrMostrarTotalVisitas();
 
         echo ' <div class="col-md-3 col-xs-6 text-center" style="border-right: 1px solid #f4f4f4">
         
-              <input type="text" class="knob" data-readonly="true" value="'.round($paises[$i]["cantidad"]*100/$totalVisitas["total"]).'" data-width="60" data-height="60" data-fgColor="purple">
+              <input type="text" class="knob" data-readonly="true" value="'.round($paises[$i]["cantidad"]*100/$totalVisitas["total"]).'" data-width="60" data-height="60" data-fgColor="purple">%
 
               <div class="knob-label">'.$paises[$i]["pais"].'</div>
             
@@ -109,14 +109,14 @@ $totalVisitas = ControladorVisitas::ctrMostrarTotalVisitas();
       regions: [
         {
           values           : visitorsData,
-          scale            : ['#92c1dc', '#ebf4f9'],
-          normalizeFunction: 'polynomial'
+          scale            : ['#e6e6ff', '#00004d'],
+          normalizeFunction: 'linear'
         }
       ]
     },
     onRegionLabelShow: function (e, el, code) {
       if (typeof visitorsData[code] != 'undefined')
-        el.html(el.html() + ': ' + visitorsData[code] + ' visitas');
+        el.html(el.html() + ': ' + visitorsData[code] + ' compras');
     }
   });
 

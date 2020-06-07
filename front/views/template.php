@@ -25,12 +25,14 @@
 <link rel="stylesheet" href="views/css/bootstrap.css">
 <link rel="stylesheet" href="views/css/flexslider.css">
 <link rel="stylesheet" href="views/css/bootstrap-tagsinput.css">
+<link rel="stylesheet" href="views/css/plugins/font-awesome.min.css">
 <script src="views/js/jquery.min.js"></script>
 <script src="views/js/bootstrap.js"></script>
 <script src="views/js/jquery.flexslider.js"></script>
 <script src="views/js/bootstrap-tagsinput.min.js"></script>
 <script src="views/js/sweetalert2.js"></script>
 <script src="views/js/sweetalert.min.js"></script>
+
 
 
 

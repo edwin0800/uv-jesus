@@ -118,19 +118,27 @@ class TablaVentas{
 		LOGOS PAYPAL Y PAYU
 		=============================================*/
 
-		if($ventas[$i]["metodo"] == "paypal"){
+		if($ventas[$i]["metodo"] == "paypal" || $ventas[$i]["metodo"] == "Paypal" || $ventas[$i]["metodo"] == "PayPal"){
 
-			$metodo = "<img class='img-responsive' src='vistas/img/plantilla/paypal.jpg' width='300px'>";
+			$metodo = "<img class='img-responsive' src='vistas/img/plantilla/paypal.jpg' width='100px'>";
 		
 		}else if($ventas[$i]["metodo"] == "payu"){
 
-			$metodo = "<img class='img-responsive' src='vistas/img/plantilla/payu.jpg' width='300px'>";
+			$metodo = "<img class='img-responsive' src='vistas/img/plantilla/payu.jpg' width='100px'>";
 		
 		}else{
 
-			$metodo = "GRATIS";
+			$metodo = "Otro";
 
 		}
+
+
+
+
+
+		$direccion = $ventas[$i]["direccion"];
+
+		
 
 
 		/*=============================================
@@ -141,14 +149,11 @@ class TablaVentas{
 			      		"'.$producto.'",
 			      		"'.$imgProducto.'",
 			      		"'.$cliente.'",
-			      		"'.$imgCliente.'",
 			      		"$ '.number_format($ventas[$i]["pago"],2).'",
-			      		"'.$tipo.'",
 			      		"'.$envio.'",
 			      		"'.$metodo.'",	
 			      		"'.$email.'",
-			      		"'.$ventas[$i]["direccion"].'",
-			      		"'.$ventas[$i]["pais"].'",
+			      		"'.$direccion.'",
 			      		"'.$ventas[$i]["fecha"].'"	
 			      		],';
 

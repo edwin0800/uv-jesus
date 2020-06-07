@@ -11,6 +11,7 @@ require_once 'models/gestorBlogs.php';
 require_once 'models/gestorCategorias.php';
 require_once 'models/gestorSubCategorias.php';
 require_once 'models//usuarios.modelo.php';
+require_once 'models//productos.modelo.php';
 require_once "models/notificaciones.modelo.php";
 
 
@@ -27,6 +28,7 @@ require_once 'controllers/gestorCategorias.php';
 require_once 'controllers/gestorSubCategorias.php';
 require_once "controllers/usuarios.controlador.php";
 require_once "controllers/notificaciones.controlador.php";
+require_once "controllers/productos.controlador.php";
 require_once "controllers/payment.php";
 
 require_once "views/PHPMailer/PHPMailerAutoload.php";

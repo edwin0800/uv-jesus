@@ -71,14 +71,11 @@ return;
               <th>Producto</th>
               <th>Imagen Producto</th>
               <th>Cliente</th>
-              <th>Foto Cliente</th>
               <th>Venta</th>
-              <th>Tipo</th>  
               <th>Proceso de envío</th>         
               <th>Metodo</th>
               <th>Email</th>
               <th>Dirección</th>
-              <th>País</th>
               <th>Fecha</th>
 
             </tr>

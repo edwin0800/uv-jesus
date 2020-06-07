@@ -380,7 +380,7 @@
                                     '.$value["detalles"].'
                                     </span>
                                 </div>
-                                <span class="product-cell__item-button product-cell__item-button--price">
+                                <span class="product-cell__item-button product-cell__item-button--price">$
                                 '.$value["precio"].'
                                 </span>
                             </a>
